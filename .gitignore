@@ -1,0 +1,16 @@
+
+
+# Update .gitignore file
+@"
+Webpage/
+RESUME/
+
+# Common files to ignore
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
